@@ -54,7 +54,7 @@ mkdir zero-trust
 
 # Copy the Zero Trust module files into contrib/zero-trust
 ```bash
-git clone 
+git clone https://github.com/arun-dot-com/zero-trust.git
 ```
 
 # Verify the contents
