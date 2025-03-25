@@ -53,7 +53,7 @@ cd ns-3.44/contrib
 mkdir zero-trust
 
 # Copy the Zero Trust module files into contrib/zero-trust
-```bash
+
 git clone https://github.com/arun-dot-com/zero-trust.git
 ```
 
