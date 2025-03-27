@@ -30,7 +30,6 @@ Update `scratch/CMakeLists.txt`:
 ```cmake
 set(target_prefix scratch_)
 link_directories(/path/to/ns-allinone-3.44/cryptopp)
-include_directories(/usr/local/include)
 ```
 
 # Add cryptopp to libraries to link
