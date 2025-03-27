@@ -5,13 +5,7 @@
 #include "ns3/mobility-module.h"
 #include "ns3/applications-module.h"
 #include "ns3/point-to-point-module.h"
-#include "ns3/access-controller.h"
-#include "ns3/authenticator.h"
-#include "ns3/encryptor.h"
-#include "ns3/geofence-manager.h"
-#include "ns3/identity-revoker.h"
-#include "ns3/logger.h"
-#include "ns3/trust-manager.h"
+#include "ns3/zero-trust-module.h"
 #include <iostream>
 #include <sstream>
 
@@ -149,5 +143,4 @@ int main(int argc, char *argv[]) {
     Simulator::Destroy();
     return 0;
 }
-
 
