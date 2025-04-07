@@ -21,7 +21,7 @@ cd cryptopp
 # Build Cryptopp
 make
 make test
-
+sudo make install
 # Return to the NS-3 root directory
 cd ..
 ```
